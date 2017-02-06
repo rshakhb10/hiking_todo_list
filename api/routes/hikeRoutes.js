@@ -5,6 +5,6 @@ module.exports = function(app){
 
 	app.route('/hikes')
 		.get(hikeList.get_all_hikes)
-		.post(hikeList.create_hike);
+		//.post(hikeList.create_hike);
 
 };
